@@ -1,0 +1,66 @@
+/* CSS Document */
+body, table {
+	margin:0px;
+	padding:0px;
+	font-family:"Segoe UI", Tahoma; /* Raleway Thin , LeagueGothic */
+	font-size:12px;
+}
+a, a:hover { text-decoration:none; }
+h1, h2, h3, h4, h5 {
+	margin:0px;
+	padding:0px;
+}
+h1 span { color:#d9d9d9; font-size:120%; }
+h1 {
+	font-size:24px;
+	font-weight:lighter;
+	background:url(../../images/recent-bg.png) 1px 1px no-repeat;
+	border-top:#ececec solid 1px;
+	border-left:#ececec solid 1px;
+	border-bottom:#ececec solid 1px;
+	background-color:#FFF;
+	color:#55ac1e;
+	height:43px;
+	padding-top:8px;
+}
+
+input, button {
+	background:none;
+	border:none;
+	outline:none;
+	margin:0px;
+	padding:0px;
+	}
+header, mainbody, footer, content {
+	display:block;
+}
+header {
+	background:url(../../images/header-top-bg.png) repeat-x;
+	height:46px;
+}
+
+mainbody {
+	background:url(../../images/header-top-bg.png) 0px -46px repeat-x;
+}
+
+footer {
+	background:#1c1c1c url(../../images/footer-top-bg.png) repeat-x;
+}
+content {
+	text-align:left;
+	width:960px;
+}
+error {
+	clear:both;
+	word-wrap:break-word;
+	position:fixed;
+	width:100%;
+	left:0px;
+	top:40%;
+	text-align:center;
+	font-family:"Arial Black", Gadget, sans-serif;
+	font-size:24px;
+	color:#FFF;
+	background-color:#C00;
+	padding:50px;
+}
